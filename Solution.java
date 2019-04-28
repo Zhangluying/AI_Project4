@@ -3,8 +3,8 @@ package p4;
 
 public class Solution
 {
-	//there are 3 dices(D1 D2 D3)
-	//each dice is a three-sided dice with labels 1, 2, and 3
+    //there are 3 dices(D1 D2 D3)
+    //each dice is a three-sided dice with labels 1, 2, and 3
     static int[] dices = new int[]{1,2,3};
     static int[] labels = new int[]{1,2,3};
 
@@ -13,15 +13,15 @@ public class Solution
     //using InputFile1.txt
     static int[] states = new int[]{1,2,3};
     static int[] observations = new int[]{1, 2, 2, 2, 1, 3, 3, 2, 1, 3,
-    									  3, 3, 2, 1, 1, 3, 3, 1, 1, 2, 
-    									  3, 1, 3, 1, 3, 1, 3, 1, 2, 3, 
-    									  1, 3, 1, 1, 1, 3, 2, 1, 3, 1, 
-    									  1, 3, 2, 2, 1, 2, 1, 1, 1, 1, 
-    									  1, 1, 1, 3, 2, 2, 3, 3, 1, 1, 
-    									  1, 1, 2, 1, 3, 3, 2, 2, 1, 1, 
-    									  3, 3, 1, 1, 1, 1, 2, 3, 2, 1, 
-    									  1, 1, 2, 1, 2, 1, 2, 2, 1, 3, 
-    									  3, 3, 2, 2, 1, 2, 2, 2, 1, 2};
+    					  3, 3, 2, 1, 1, 3, 3, 1, 1, 2, 
+    					  3, 1, 3, 1, 3, 1, 3, 1, 2, 3, 
+    					  1, 3, 1, 1, 1, 3, 2, 1, 3, 1, 
+    					  1, 3, 2, 2, 1, 2, 1, 1, 1, 1, 
+    					  1, 1, 1, 3, 2, 2, 3, 3, 1, 1, 
+    					  1, 1, 2, 1, 3, 3, 2, 2, 1, 1, 
+    					  3, 3, 1, 1, 1, 1, 2, 3, 2, 1, 
+    					  1, 1, 2, 1, 2, 1, 2, 2, 1, 3, 
+    					  3, 3, 2, 2, 1, 2, 2, 2, 1, 2};
     static double[] start_probability = new double[]{0.33333333, 0.33333333, 0.33333333};
     
     
